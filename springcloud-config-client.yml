@@ -1,14 +1,14 @@
 ﻿spring:
   profiles:
     active:
-     -dev
+     - dev
 ---
 server:
   port: 8201
 spring:
     profiles: dev #开发环境
     application:
-       name:springcloud-config-dev
+       name: springcloud-config-client
 eureka:
    client:
      service-url:
@@ -18,9 +18,9 @@ eureka:
 server:
   port: 8202
 spring:
-    profiles: test#开发环境
+    profiles: test #开发环境
     application:
-       name:springcloud-config-test
+       name: springcloud-config-client
 eureka:
    client:
      service-url:
