@@ -21,8 +21,6 @@ spring:
     profiles: test#开发环境
     application:
        name:springcloud-config-test
-
-
 eureka:
    client:
      service-url:
