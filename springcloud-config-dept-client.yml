@@ -1,7 +1,7 @@
 ﻿spring:
   profiles:
-    active:
-     - dev
+    active: dev
+
 ---
 server:
   port: 8001
@@ -16,8 +16,8 @@ eureka:
    instance:
        instance-id: dept-8001.com
        prefer-ip-address: true
----
 
+---
 server:
   port: 8001
 spring:
